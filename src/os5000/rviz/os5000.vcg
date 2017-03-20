@@ -1,0 +1,80 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Compass1/Status1
+      Splitter Ratio: 0.5
+    Tree Height: 886
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        pcb:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: Compass
+      Robot Description: robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Class: rviz/TF
+      Enabled: false
+      Frame Timeout: 15
+      Frames:
+        All Enabled: true
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        {}
+      Update Interval: 0
+      Value: false
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: /odom
+  Name: root
+  Tools:
+    - Class: rviz/MoveCamera
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 1.05418
+      Focal Point:
+        X: 0.0132644
+        Y: 0.0521525
+        Z: -0.223257
+      Name: Current View
+      Near Clip Distance: 0.01
+      Pitch: 1.0754
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz)
+      Yaw: 0.670398
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1152
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd00000001000000000000010f00000405fc0200000001fb000000100044006900730070006c006100790073010000004100000405000000dd00ffffff0000066b0000040500000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Width: 1920
+  X: -1210
+  Y: -400

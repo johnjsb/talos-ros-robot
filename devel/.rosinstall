@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/talos/talos-ros-robot/devel/setup.sh

@@ -1,0 +1,2 @@
+os5000
+-DCATKIN_DEVEL_PREFIX=/home/talos/talos-ros-robot/devel -DCMAKE_INSTALL_PREFIX=/home/talos/talos-ros-robot/install -G Unix Makefiles

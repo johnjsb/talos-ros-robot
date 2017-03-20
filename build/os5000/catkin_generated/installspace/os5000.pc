@@ -1,0 +1,8 @@
+prefix=/home/talos/talos-ros-robot/install
+
+Name: os5000
+Description: Description of os5000
+Version: 0.1.0
+Cflags: -I/home/talos/talos-ros-robot/install/include
+Libs: -L/home/talos/talos-ros-robot/install/lib 
+Requires: dynamic_reconfigure roscpp tf
