@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>imu_quat_to_euler</name>
+  <version>1.0.0</version>
+  <description>imu_quat_to_euler in ROS</description>
+
+  <author email="john_jsb@hotmail.com">John Browning</author>
+  <maintainer email="john_jsb@hotmail.com">John Browning</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>std_msgs</run_depend>
+
+
+</package>
+
+

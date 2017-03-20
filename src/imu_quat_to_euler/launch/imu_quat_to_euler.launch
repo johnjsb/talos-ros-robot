@@ -1,0 +1,14 @@
+<launch>
+
+<node pkg="imu_quat_to_euler" type="quat_to_euler.py" name="imu_euler_angles">
+    <remap from="imu"   to="microstrain/data"/>
+    <remap from="euler" to="microstrain/euler"/>
+</node>
+
+<node pkg="imu_quat_to_euler" type="quat_to_euler.py" name="kf_euler_angles">
+    <remap from="odom"  to="kf/odom"/>
+    <remap from="euler" to="kf/euler"/>
+</node>
+
+
+</launch>
